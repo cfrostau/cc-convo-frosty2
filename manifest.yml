@@ -8,6 +8,6 @@ applications:
   disk_quota: 1024M
   buildpack: python_buildpack
   env:
-  CONVERSATION_URL:value1
-  CONVERSATION_USERNAME:value2
-  CONVERSATION_PASSWORD:value3
+  CONVERSATION_URL: value1
+  CONVERSATION_USERNAME: value2
+  CONVERSATION_PASSWORD: value3
