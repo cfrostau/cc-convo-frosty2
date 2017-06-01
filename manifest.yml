@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: STSA-WCS_Client
+  host: STSA-WCS_Client
+  disk_quota: 1024M
+  buildpack: python_buildpack
+  env:
+  CONVERSATION_URL:value1
+  CONVERSATION_USERNAME:value2
+  CONVERSATION_PASSWORD:value3
