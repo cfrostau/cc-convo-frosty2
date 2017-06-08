@@ -3,8 +3,8 @@ applications:
   memory: 128M
   instances: 1
   domain: mybluemix.net
-  name: STSA-WCS_Client
-  host: STSA-WCS_Client
+  name: STSA-WCS-Client-01
+  host: STSA-WCS-Client-01
   disk_quota: 1024M
   buildpack: python_buildpack
   env:
